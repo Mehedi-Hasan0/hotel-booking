@@ -70,6 +70,9 @@
   .main-container {
     @apply px-7 sm:px-10 md:px-12 lg:px-16 xl:px-24 max-w-screen-2xl mx-auto;
   }
+  .flex-center {
+    @apply flex items-center justify-between;
+  }
 }
 
 * {
