@@ -2,12 +2,25 @@
 
 import { popularPlaces } from "@/data";
 import useOutSideClick from "@/hooks/useOutsideClick";
+import { ISearchPlaceOptions } from "@/types";
 import { useRef, useState } from "react";
 import { IoBedOutline } from "react-icons/io5";
 import { MdOutlinePlace } from "react-icons/md";
 
-export default function SearchPlaces() {
+interface ISearchProps {
+  popularPlaceOptions: ISearchPlaceOptions | undefined;
+  setPopularPlaceOptions: React.Dispatch<
+    React.SetStateAction<ISearchPlaceOptions | undefined>
+  >;
+}
+
+const SearchPlaces: React.FC<ISearchProps> = ({
+  popularPlaceOptions,
+  setPopularPlaceOptions,
+}) => {
+  // STATE
   const [showPlaceOptions, setShowPlaceOptions] = useState<boolean>(false);
+  //   REF
   const ref = useRef<HTMLDivElement>(null);
   //   on outside click hiding popular place options
   useOutSideClick(ref, () => {
@@ -17,14 +30,19 @@ export default function SearchPlaces() {
   });
 
   const handleShowPopulaPlace = () => {
-    setShowPlaceOptions((prev) => !prev);
+    setShowPlaceOptions(true);
+  };
+
+  const handlePlaceOptions = (place: ISearchPlaceOptions) => {
+    setPopularPlaceOptions(place);
   };
 
   return (
-    <div onClick={handleShowPopulaPlace} className="w-full h-14 relative">
+    <div ref={ref} className="w-full h-14 relative">
       <label
+        onClick={handleShowPopulaPlace}
         htmlFor="places"
-        className="w-full h-[54px] lg:h-14 bg-white rounded-md flex items-center gap-2 pl-4 lg:pl-2"
+        className="w-full h-[54px] lg:h-14 bg-white rounded-md flex items-center gap-2 pl-4 lg:pl-2 cursor-pointer"
       >
         {/* icon */}
         <IoBedOutline
@@ -35,13 +53,17 @@ export default function SearchPlaces() {
           type="search"
           name="places"
           id="places"
-          className="w-full outline-none rounded-md placeholder:text-sm placeholder:text-secondary placeholder:font-medium focus:placeholder:text-secondary-foreground"
+          value={
+            popularPlaceOptions &&
+            `${popularPlaceOptions?.place}, ${popularPlaceOptions?.country}`
+          }
+          className="w-full outline-none rounded-md text-sm text-secondary font-medium placeholder:text-sm placeholder:text-secondary placeholder:font-medium focus:placeholder:text-secondary-foreground hide-cross-btn"
           placeholder="Where are you going?"
         />
       </label>
       {/* search place optionns */}
       <div
-        ref={ref}
+        onClick={() => setShowPlaceOptions(false)}
         className={`absolute top-14 lg:top-16 w-[320px] sm:w-[400px] bg-white search-card-shadow rounded-md border z-30 ${
           showPlaceOptions ? "block" : "hidden"
         }`}
@@ -52,6 +74,7 @@ export default function SearchPlaces() {
         {popularPlaces.map((place, idx) => (
           <div
             key={place.id}
+            onClick={() => handlePlaceOptions(place)}
             className={`flex items-center gap-5 px-3 py-2 bg-transparent hover:bg-zinc-100 transition-colors duration-300 ease-in-out cursor-pointer ${
               idx !== 4 && "border-b border-zinc-200"
             }`}
@@ -68,4 +91,6 @@ export default function SearchPlaces() {
       </div>
     </div>
   );
-}
+};
+
+export default SearchPlaces;

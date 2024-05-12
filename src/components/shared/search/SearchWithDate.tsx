@@ -4,7 +4,7 @@ export default function SearchWithDate() {
   return (
     <div className="w-full h-14 relative">
       <label
-        htmlFor="places"
+        // htmlFor="places"
         className="w-full h-[54px] lg:h-14 bg-white rounded-md flex items-center gap-2 pl-4 lg:pl-2"
       >
         {/* icon */}
@@ -14,8 +14,8 @@ export default function SearchWithDate() {
         />
         <input
           type="search"
-          name="places"
-          id="places"
+          //   name="places"
+          //   id="places"
           className="w-full outline-none rounded-md placeholder:text-sm placeholder:text-secondary placeholder:font-medium focus:placeholder:text-secondary-foreground"
           placeholder="Search Date"
         />

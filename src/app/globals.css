@@ -92,3 +92,11 @@ body {
 .search-card-shadow {
   box-shadow: 0 2px 16px 0 rgba(26, 26, 26, 0.24);
 }
+
+.hide-cross-btn::-webkit-search-cancel-button {
+  display: none;
+}
+
+.hide-cross-btn::-ms-clear {
+  display: none;
+}
