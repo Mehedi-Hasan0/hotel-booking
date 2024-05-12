@@ -9,8 +9,9 @@ import { ISearchPlaceOptions } from "@/types";
 
 export default function Search() {
   // STATE
-  const [popularPlaceOptions, setPopularPlaceOptions] =
-    useState<ISearchPlaceOptions>();
+  const [popularPlaceOptions, setPopularPlaceOptions] = useState<
+    ISearchPlaceOptions | string
+  >("");
 
   return (
     <div className="mt-10 sm:mt-12 md:mt-16 lg:mt-20 mb-52 sm:mb-52 lg:mb-16 relative">

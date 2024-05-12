@@ -3,14 +3,14 @@
 import { popularPlaces } from "@/data";
 import useOutSideClick from "@/hooks/useOutsideClick";
 import { ISearchPlaceOptions } from "@/types";
-import { useRef, useState } from "react";
+import { ChangeEvent, useRef, useState } from "react";
 import { IoBedOutline } from "react-icons/io5";
 import { MdOutlinePlace } from "react-icons/md";
 
 interface ISearchProps {
-  popularPlaceOptions: ISearchPlaceOptions | undefined;
+  popularPlaceOptions: ISearchPlaceOptions | string;
   setPopularPlaceOptions: React.Dispatch<
-    React.SetStateAction<ISearchPlaceOptions | undefined>
+    React.SetStateAction<ISearchPlaceOptions | string>
   >;
 }
 
@@ -37,6 +37,10 @@ const SearchPlaces: React.FC<ISearchProps> = ({
     setPopularPlaceOptions(place);
   };
 
+  const handleOptionsChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setPopularPlaceOptions(e.target.value);
+  };
+
   return (
     <div ref={ref} className="w-full h-14 relative">
       <label
@@ -54,10 +58,12 @@ const SearchPlaces: React.FC<ISearchProps> = ({
           name="places"
           id="places"
           value={
-            popularPlaceOptions &&
-            `${popularPlaceOptions?.place}, ${popularPlaceOptions?.country}`
+            typeof popularPlaceOptions === "string"
+              ? popularPlaceOptions
+              : `${popularPlaceOptions?.place}, ${popularPlaceOptions?.country}`
           }
-          className="w-full outline-none rounded-md text-sm text-secondary font-medium placeholder:text-sm placeholder:text-secondary placeholder:font-medium focus:placeholder:text-secondary-foreground hide-cross-btn"
+          onChange={(e) => handleOptionsChange(e)}
+          className="w-full outline-none text-sm text-secondary font-medium placeholder:text-sm placeholder:text-secondary placeholder:font-medium focus:placeholder:text-secondary-foreground"
           placeholder="Where are you going?"
         />
       </label>
