@@ -11,6 +11,19 @@ const config: Config = {
       fontFamily: {
         inter: ["var(--font-inter)", "sans-serif"],
       },
+      colors: {
+        primary: {
+          DEFAULT: "#003b95",
+          foreground: "#006ce4",
+        },
+        secondary: {
+          DEFAULT: "#1A1A1A",
+          foreground: "#595959",
+        },
+        accent: {
+          DEFAULT: "#FFFFFF",
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
