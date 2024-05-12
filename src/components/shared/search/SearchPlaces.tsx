@@ -1,10 +1,27 @@
+"use client";
+
 import { popularPlaces } from "@/data";
+import useOutSideClick from "@/hooks/useOutsideClick";
+import { useRef, useState } from "react";
 import { IoBedOutline } from "react-icons/io5";
 import { MdOutlinePlace } from "react-icons/md";
 
 export default function SearchPlaces() {
+  const [showPlaceOptions, setShowPlaceOptions] = useState<boolean>(false);
+  const ref = useRef<HTMLDivElement>(null);
+  //   on outside click hiding popular place options
+  useOutSideClick(ref, () => {
+    if (showPlaceOptions) {
+      setShowPlaceOptions(false);
+    }
+  });
+
+  const handleShowPopulaPlace = () => {
+    setShowPlaceOptions((prev) => !prev);
+  };
+
   return (
-    <div className="w-full h-14 relative">
+    <div onClick={handleShowPopulaPlace} className="w-full h-14 relative">
       <label
         htmlFor="places"
         className="w-full h-[54px] lg:h-14 bg-white rounded-md flex items-center gap-2 pl-4 lg:pl-2"
@@ -23,7 +40,12 @@ export default function SearchPlaces() {
         />
       </label>
       {/* search place optionns */}
-      <div className="absolute top-14 lg:top-16 w-[320px] sm:w-[400px] bg-white search-card-shadow rounded-md border z-30">
+      <div
+        ref={ref}
+        className={`absolute top-14 lg:top-16 w-[320px] sm:w-[400px] bg-white search-card-shadow rounded-md border z-30 ${
+          showPlaceOptions ? "block" : "hidden"
+        }`}
+      >
         <p className="text-secondary text-sm font-bold px-4 pt-4 pb-2">
           Popular nearby destinations
         </p>
