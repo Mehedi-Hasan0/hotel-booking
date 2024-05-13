@@ -1,9 +1,4 @@
 import TopRatedHomesCarousel from "./TopRatedHomesCarousel";
-import dynamic from "next/dynamic";
-
-// const TopRatedHomesCarousel = dynamic(import("./TopRatedHomesCarousel"), {
-//   ssr: false,
-// });
 
 const TopRatedHomes = () => {
   return (
