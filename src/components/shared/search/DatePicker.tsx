@@ -27,7 +27,7 @@ const DatePicker: React.FC<ISearchWithDateProps> = ({
             id="date"
             variant={"outline"}
             className={cn(
-              "sm:w-[300px] justify-start text-left border-none hover:bg-transparent pl-0 text-sm font-medium text-secondary",
+              "xl:w-[300px] justify-start text-left border-none hover:bg-transparent pl-0 text-sm font-medium text-secondary",
               !date && "text-muted-foreground"
             )}
           >

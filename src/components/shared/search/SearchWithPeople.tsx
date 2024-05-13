@@ -76,7 +76,7 @@ const SearchWithPeople: React.FC<ISearchPlaceWithPeopleProps> = ({
             className="text-secondary-foreground cursor-pointer w-5 h-5 lg:w-6 lg:h-6"
           />
           {/* display current people */}
-          <div className="flex-center gap-2">
+          <div className="flex-center gap-1 sm:gap-2">
             <span>{searchPlacesWithPeople.adults} adults</span> ·
             <span>{searchPlacesWithPeople.children} children</span> ·
             <span
