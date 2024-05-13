@@ -68,10 +68,13 @@
 
 @layer utilities {
   .main-container {
-    @apply px-7 sm:px-10 md:px-12 lg:px-16 xl:px-24 max-w-screen-2xl mx-auto;
+    @apply px-4 sm:px-10 md:px-12 lg:px-16 xl:px-24 max-w-screen-2xl mx-auto;
   }
   .flex-center {
     @apply flex items-center justify-between;
+  }
+  .increase-people-btn {
+    @apply hover:bg-[#edf4fc] w-8 h-8 p-2 border-none;
   }
 }
 
@@ -87,4 +90,16 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   overflow-x: hidden;
+}
+
+.search-card-shadow {
+  box-shadow: 0 2px 16px 0 rgba(26, 26, 26, 0.24);
+}
+
+.hide-cross-btn::-webkit-search-cancel-button {
+  display: none;
+}
+
+.hide-cross-btn::-ms-clear {
+  display: none;
 }
