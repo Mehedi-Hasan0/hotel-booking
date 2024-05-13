@@ -99,9 +99,9 @@ const TopRatedHomesCarousel = () => {
         {/* slider data */}
         {hotels.map((hotel, idx) => (
           <SwiperSlide key={idx}>
-            {/* <Link href={`/hotels/${hotel.id}`}> */}
-            <CarouselCard hotel={hotel} />
-            {/* </Link> */}
+            <Link href={`/hotels/${hotel.id}`}>
+              <CarouselCard hotel={hotel} />
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>
