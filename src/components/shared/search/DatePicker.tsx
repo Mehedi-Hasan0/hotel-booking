@@ -2,7 +2,6 @@
 
 import { HTMLAttributes, useState } from "react";
 import { addDays, format } from "date-fns";
-import { Calendar as CalendarIcon } from "lucide-react";
 import { DateRange } from "react-day-picker";
 
 import { cn } from "@/lib/utils";
@@ -13,15 +12,13 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { ISearchWithDateProps } from "@/types";
 
-export default function DatePicker({
+const DatePicker: React.FC<ISearchWithDateProps> = ({
+  date,
+  setDate,
   className,
-}: HTMLAttributes<HTMLDivElement>) {
-  const [date, setDate] = useState<DateRange | undefined>({
-    from: new Date(),
-    to: addDays(new Date(), 1),
-  });
-
+}) => {
   return (
     <div className={cn("grid gap-2", className)}>
       <Popover>
@@ -62,4 +59,6 @@ export default function DatePicker({
       </Popover>
     </div>
   );
-}
+};
+
+export default DatePicker;
