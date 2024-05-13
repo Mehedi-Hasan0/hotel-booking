@@ -37,7 +37,7 @@ export default function Search() {
     >
       <SearchHeader />
       {/* search fields */}
-      <div className="absolute w-full h-56 lg:h-16 bg-yellow-500 rounded-lg -bottom-[264px] sm:-bottom-64 md:-bottom-[268px] lg:-bottom-28 z-20 flex flex-col lg:flex-row items-center justify-center gap-1 p-1">
+      <div className="absolute w-full h-56 lg:h-16 bg-yellow-500 rounded-lg -bottom-[264px] sm:-bottom-64 md:-bottom-[268px] lg:-bottom-28 z-20 flex flex-col lg:flex-row items-center justify-center gap-1 p-1 shadow-lg">
         <SearchPlaces
           popularPlaceOptions={popularPlaceOptions}
           setPopularPlaceOptions={setPopularPlaceOptions}
