@@ -28,7 +28,7 @@
         "comfort": 9.2,
         "freeWifi": 9.0,
         "facilities": 9.3,
-        "value for money": 9.6,
+        "valueForMoney": 9.6,
         "cleanliness": 9.1,
         "location": 9.4
       },
@@ -120,7 +120,7 @@
         "comfort": 8.6,
         "freeWifi": 8.0,
         "facilities": 8.4,
-        "value for money": 8.3,
+        "valueForMoney": 8.3,
         "cleanliness": 8.7,
         "location": 8.9
       },
@@ -212,7 +212,7 @@
         "comfort": 9.2,
         "freeWifi": 9.0,
         "facilities": 9.3,
-        "value for money": 9.6,
+        "valueForMoney": 9.6,
         "cleanliness": 9.1,
         "location": 9.4
       },
@@ -304,7 +304,7 @@
         "comfort": 8.6,
         "freeWifi": 8.0,
         "facilities": 8.4,
-        "value for money": 8.3,
+        "valueForMoney": 8.3,
         "cleanliness": 8.7,
         "location": 8.9
       },
@@ -396,7 +396,7 @@
         "comfort": 8.8,
         "freeWifi": 9.0,
         "facilities": 9.1,
-        "value for money": 8.9,
+        "valueForMoney": 8.9,
         "cleanliness": 9.0,
         "location": 9.0
       },
@@ -488,7 +488,7 @@
         "comfort": 9.2,
         "freeWifi": 9.0,
         "facilities": 9.3,
-        "value for money": 9.6,
+        "valueForMoney": 9.6,
         "cleanliness": 9.1,
         "location": 9.4
       },
@@ -580,7 +580,7 @@
         "comfort": 8.6,
         "freeWifi": 8.0,
         "facilities": 8.4,
-        "value for money": 8.3,
+        "valueForMoney": 8.3,
         "cleanliness": 8.7,
         "location": 8.9
       },
@@ -672,7 +672,7 @@
         "comfort": 9.2,
         "freeWifi": 9.0,
         "facilities": 9.3,
-        "value for money": 9.6,
+        "valueForMoney": 9.6,
         "cleanliness": 9.1,
         "location": 9.4
       },
@@ -764,7 +764,7 @@
         "comfort": 8.6,
         "freeWifi": 8.0,
         "facilities": 8.4,
-        "value for money": 8.3,
+        "valueForMoney": 8.3,
         "cleanliness": 8.7,
         "location": 8.9
       },
@@ -856,7 +856,927 @@
         "comfort": 8.8,
         "freeWifi": 9.0,
         "facilities": 9.1,
-        "value for money": 8.9,
+        "valueForMoney": 8.9,
+        "cleanliness": 9.0,
+        "location": 9.0
+      },
+      "reviews": [
+        {
+          "name": "Sophia Johnson",
+          "country": "USA",
+          "good": "Great location and friendly staff.",
+          "bad": "Small rooms."
+        },
+        {
+          "name": "Michael Chen",
+          "country": "China",
+          "good": "Amazing rooftop bar with stunning views.",
+          "bad": "Noise from the street could be bothersome."
+        }
+      ]
+    },
+    "houseRules": {
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "cancellation": "Cancellation policy varies. Please review before booking.",
+      "ageRestrictions": "Guests under 21 must be accompanied by an adult.",
+      "smoking": "Smoking is not allowed indoors.",
+      "parties": "No parties allowed in rooms.",
+      "pets": "Pets are not allowed."
+    },
+    "apartment": [
+      {
+        "title": "City View Room",
+        "numberOfGuest": "2",
+        "price": "USD 250",
+        "availableRoom": 4,
+        "bed": {
+          "small": 0,
+          "medium": 1,
+          "large": 0,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Flexible cancellation",
+          "desc": "Cancel up to 24 hours before check-in."
+        }
+      },
+      {
+        "title": "Suite with Balcony",
+        "numberOfGuest": "4",
+        "price": "USD 450",
+        "availableRoom": 2,
+        "bed": {
+          "small": 1,
+          "medium": 1,
+          "large": 0,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Non-refundable",
+          "desc": "Pay in advance."
+        }
+      }
+    ]
+  },
+  {
+    "image": [
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1693298937/ezgif_1_rmykvj.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1693298951/ezgif_1_uczsku.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1693298965/ezgif_prxh2d.png"
+    ],
+    "title": "Whispering Pines Cottages",
+    "location": "India",
+    "ratings": 4.6,
+    "description": "Featuring 4-star accommodation, Whispering Pines Cottages is set in Amsterdam, 2.1 km from Artis Zoo and 2.8 km from Royal Theater Carré. The property is situated 3.2 km from Rembrandt House, 3.2 km from Dutch National Opera & Ballet and 3.3 km from Heineken Experience. The aparthotel features family rooms. All units in the aparthotel are fitted with a coffee machine. Featuring a private bathroom with a shower and a hair dryer, units at the aparthotel also offer free WiFi, while some rooms also offer a balcony. At the aparthotel, units come with bed linen and towels. Amsterdam RAI is 3.6 km from the aparthotel, while Rijksmuseum is 4 km away. The nearest airport is Schiphol Airport, 15 km from Whispering Pines Cottages.",
+    "popularFacilities": ["Family rooms", "Heating", "Breakfast", "Free WiFi"],
+    "amenities": [
+      "Apartment",
+      "Breakfast",
+      "Free WiFi",
+      "Balcony",
+      "Private bathroom",
+      "Family rooms",
+      "Non smoking rooms",
+      "Kitchen",
+      "Flat-screen TV"
+    ],
+    "guestReviews": {
+      "total": 9.5,
+      "categories": {
+        "staff": 9.5,
+        "comfort": 9.2,
+        "freeWifi": 9.0,
+        "facilities": 9.3,
+        "valueForMoney": 9.6,
+        "cleanliness": 9.1,
+        "location": 9.4
+      },
+      "reviews": [
+        {
+          "name": "John Doe",
+          "country": "USA",
+          "good": "Amazing service and stunning views.",
+          "bad": "Limited dining options."
+        },
+        {
+          "name": "Jane Smith",
+          "country": "Canada",
+          "good": "Beautifully decorated rooms.",
+          "bad": "Slow Wi-Fi connection."
+        }
+      ]
+    },
+    "houseRules": {
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "cancellation": "Cancellation and prepayment policies vary according to accommodation type. Please check what conditions may apply to each option when making your selection.",
+      "ageRestrictions": "The minimum age for check-in is 18.",
+      "smoking": "Smoking is not allowed.",
+      "parties": "Parties/events are not allowed.",
+      "pets": "Pets are not allowed."
+    },
+    "apartment": [
+      {
+        "title": "Ocean Villa",
+        "numberOfGuest": "2",
+        "price": "USD 250",
+        "availableRoom": 5,
+        "bed": {
+          "small": 0,
+          "medium": 1,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Non-refundable",
+          "desc": "Pay in advance."
+        }
+      },
+      {
+        "title": "Beach Suite",
+        "numberOfGuest": "4",
+        "price": "USD 450",
+        "availableRoom": 3,
+        "bed": {
+          "small": 0,
+          "medium": 2,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Free cancellation before 7 days of arrival",
+          "desc": "Pay nothing until 3 days before arrival."
+        }
+      }
+    ]
+  },
+  {
+    "image": [
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697346882/1_xh2fbq.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697346887/2_o7m0in.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697346893/3_hjpn2l.png"
+    ],
+    "title": "Vintage Airstream Suite on Top of a Hill",
+    "location": "Caagayan, Calanogas, Philippines",
+    "ratings": 4,
+    "description": "Featuring 4-star accommodation, Whispering Pines Cottages is set in Amsterdam, 2.1 km from Artis Zoo and 2.8 km from Royal Theater Carré. The property is situated 3.2 km from Rembrandt House, 3.2 km from Dutch National Opera & Ballet and 3.3 km from Heineken Experience. The aparthotel features family rooms. All units in the aparthotel are fitted with a coffee machine. Featuring a private bathroom with a shower and a hair dryer, units at the aparthotel also offer free WiFi, while some rooms also offer a balcony. At the aparthotel, units come with bed linen and towels. Amsterdam RAI is 3.6 km from the aparthotel, while Rijksmuseum is 4 km away. The nearest airport is Schiphol Airport, 15 km from Whispering Pines Cottages.",
+    "popularFacilities": ["Family rooms", "Heating", "Breakfast", "Free WiFi"],
+    "amenities": [
+      "Apartment",
+      "Breakfast",
+      "Free WiFi",
+      "Balcony",
+      "Private bathroom",
+      "Family rooms",
+      "Non smoking rooms",
+      "Kitchen",
+      "Flat-screen TV"
+    ],
+    "guestReviews": {
+      "total": 8.5,
+      "categories": {
+        "staff": 8.2,
+        "comfort": 8.6,
+        "freeWifi": 8.0,
+        "facilities": 8.4,
+        "valueForMoney": 8.3,
+        "cleanliness": 8.7,
+        "location": 8.9
+      },
+      "reviews": [
+        {
+          "name": "David Brown",
+          "country": "UK",
+          "good": "Beautiful surroundings and friendly staff.",
+          "bad": "Limited parking space."
+        },
+        {
+          "name": "Emma White",
+          "country": "Australia",
+          "good": "Cozy rooms with breathtaking views.",
+          "bad": "Wi-Fi signal was weak in the rooms."
+        }
+      ]
+    },
+    "houseRules": {
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "cancellation": "Flexible cancellation policy available. Please check details before booking.",
+      "ageRestrictions": "Guests must be 18 years or older to check-in.",
+      "smoking": "Smoking is prohibited indoors.",
+      "parties": "No parties or events allowed.",
+      "pets": "Pets are not allowed."
+    },
+    "apartment": [
+      {
+        "title": "Alpine Chalet",
+        "numberOfGuest": "2",
+        "price": "USD 1300",
+        "availableRoom": 2,
+        "bed": {
+          "small": 0,
+          "medium": 1,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Flexible cancellation",
+          "desc": "Cancel up to 48 hours before check-in."
+        }
+      },
+      {
+        "title": "Mountain View Suite",
+        "numberOfGuest": "4",
+        "price": "USD 2500",
+        "availableRoom": 1,
+        "bed": {
+          "small": 1,
+          "medium": 1,
+          "large": 0,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Non-refundable",
+          "desc": "Pay in advance."
+        }
+      }
+    ]
+  },
+  {
+    "image": [
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308958/6d90bd2d-1bae-47cc-b831-b7561d766048_zaotzs.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308972/b0472ec4-f1cd-4b79-86d0-444a8929b371_icpxhd.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308980/f2026c2f-028b-4a4f-895d-2fea973d9609_cvnyfq.png"
+    ],
+    "title": "Treasure of Bali, 3BR villa, infinity pool, staff",
+    "location": "Seririt, Bali, Indonesia",
+    "ratings": 4.8,
+    "description": "Featuring 4-star accommodation, Treasure of Bali is set in Amsterdam, 2.1 km from Artis Zoo and 2.8 km from Royal Theater Carré. The property is situated 3.2 km from Rembrandt House, 3.2 km from Dutch National Opera & Ballet and 3.3 km from Heineken Experience. The aparthotel features family rooms. All units in the aparthotel are fitted with a coffee machine. Featuring a private bathroom with a shower and a hair dryer, units at the aparthotel also offer free WiFi, while some rooms also offer a balcony. At the aparthotel, units come with bed linen and towels. Amsterdam RAI is 3.6 km from the aparthotel, while Rijksmuseum is 4 km away. The nearest airport is Schiphol Airport, 15 km from Treasure of Bali.",
+    "popularFacilities": ["Family rooms", "Heating", "Breakfast", "Free WiFi"],
+    "amenities": [
+      "Apartment",
+      "Breakfast",
+      "Free WiFi",
+      "Balcony",
+      "Private bathroom",
+      "Family rooms",
+      "Non smoking rooms",
+      "Kitchen",
+      "Flat-screen TV"
+    ],
+    "guestReviews": {
+      "total": 9.5,
+      "categories": {
+        "staff": 9.5,
+        "comfort": 9.2,
+        "freeWifi": 9.0,
+        "facilities": 9.3,
+        "valueForMoney": 9.6,
+        "cleanliness": 9.1,
+        "location": 9.4
+      },
+      "reviews": [
+        {
+          "name": "John Doe",
+          "country": "USA",
+          "good": "Amazing service and stunning views.",
+          "bad": "Limited dining options."
+        },
+        {
+          "name": "Jane Smith",
+          "country": "Canada",
+          "good": "Beautifully decorated rooms.",
+          "bad": "Slow Wi-Fi connection."
+        }
+      ]
+    },
+    "houseRules": {
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "cancellation": "Cancellation and prepayment policies vary according to accommodation type. Please check what conditions may apply to each option when making your selection.",
+      "ageRestrictions": "The minimum age for check-in is 18.",
+      "smoking": "Smoking is not allowed.",
+      "parties": "Parties/events are not allowed.",
+      "pets": "Pets are not allowed."
+    },
+    "apartment": [
+      {
+        "title": "Ocean Villa",
+        "numberOfGuest": "2",
+        "price": "USD 210",
+        "availableRoom": 5,
+        "bed": {
+          "small": 0,
+          "medium": 1,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Non-refundable",
+          "desc": "Pay in advance."
+        }
+      },
+      {
+        "title": "Beach Suite",
+        "numberOfGuest": "4",
+        "price": "USD 430",
+        "availableRoom": 3,
+        "bed": {
+          "small": 0,
+          "medium": 2,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Free cancellation before 7 days of arrival",
+          "desc": "Pay nothing until 3 days before arrival."
+        }
+      }
+    ]
+  },
+  {
+    "image": [
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697394713/1_tc3clg.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697394719/2_jhtr1x.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697394723/3_rlue1w.png"
+    ],
+    "title": "Vintage Airstream Suite on Top of a Hill",
+    "location": "Caagayan, Calanogas, Philippines",
+    "ratings": 4,
+    "description": "Featuring 4-star accommodation, Whispering Pines Cottages is set in Amsterdam, 2.1 km from Artis Zoo and 2.8 km from Royal Theater Carré. The property is situated 3.2 km from Rembrandt House, 3.2 km from Dutch National Opera & Ballet and 3.3 km from Heineken Experience. The aparthotel features family rooms. All units in the aparthotel are fitted with a coffee machine. Featuring a private bathroom with a shower and a hair dryer, units at the aparthotel also offer free WiFi, while some rooms also offer a balcony. At the aparthotel, units come with bed linen and towels. Amsterdam RAI is 3.6 km from the aparthotel, while Rijksmuseum is 4 km away. The nearest airport is Schiphol Airport, 15 km from Whispering Pines Cottages.",
+    "popularFacilities": ["Family rooms", "Heating", "Breakfast", "Free WiFi"],
+    "amenities": [
+      "Apartment",
+      "Breakfast",
+      "Free WiFi",
+      "Balcony",
+      "Private bathroom",
+      "Family rooms",
+      "Non smoking rooms",
+      "Kitchen",
+      "Flat-screen TV"
+    ],
+    "guestReviews": {
+      "total": 8.5,
+      "categories": {
+        "staff": 8.2,
+        "comfort": 8.6,
+        "freeWifi": 8.0,
+        "facilities": 8.4,
+        "valueForMoney": 8.3,
+        "cleanliness": 8.7,
+        "location": 8.9
+      },
+      "reviews": [
+        {
+          "name": "David Brown",
+          "country": "UK",
+          "good": "Beautiful surroundings and friendly staff.",
+          "bad": "Limited parking space."
+        },
+        {
+          "name": "Emma White",
+          "country": "Australia",
+          "good": "Cozy rooms with breathtaking views.",
+          "bad": "Wi-Fi signal was weak in the rooms."
+        }
+      ]
+    },
+    "houseRules": {
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "cancellation": "Flexible cancellation policy available. Please check details before booking.",
+      "ageRestrictions": "Guests must be 18 years or older to check-in.",
+      "smoking": "Smoking is prohibited indoors.",
+      "parties": "No parties or events allowed.",
+      "pets": "Pets are not allowed."
+    },
+    "apartment": [
+      {
+        "title": "Alpine Chalet",
+        "numberOfGuest": "2",
+        "price": "USD 1300",
+        "availableRoom": 2,
+        "bed": {
+          "small": 0,
+          "medium": 1,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Flexible cancellation",
+          "desc": "Cancel up to 48 hours before check-in."
+        }
+      },
+      {
+        "title": "Mountain View Suite",
+        "numberOfGuest": "4",
+        "price": "USD 2500",
+        "availableRoom": 1,
+        "bed": {
+          "small": 1,
+          "medium": 1,
+          "large": 0,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Non-refundable",
+          "desc": "Pay in advance."
+        }
+      }
+    ]
+  },
+  {
+    "image": [
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308253/1_pgfie4.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308267/2_lo49wm.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308273/3_bc14qx.png"
+    ],
+    "title": "Veluvana Bali - Owl Bamboo House",
+    "location": "Sidemen, Bali, Indonesia",
+    "ratings": 4.9,
+    "description": "Veluvana is a unique bamboo house with a wonderful view of Sidemen Valley, a genuine tropical landscape with Mount Agung peak on its back. This getaway spot is a great place to bring into reality the dream adventure of the true wanderer. We invite you to feel the magnificent vibes of the entire house to escape the life that is full of drama into a journey with ultimate joy. The bamboo house is located at the main tourist district of Sidemen, a small town with a magnificent landscape in the southern flank of Mount Agung. Sidemen is not a touristy area, it is about a 90-minute drive from Bali Airport and a 45-minute drive from Ubud. Besides the beautiful scenery and the indigenous culture Sidemen also surrounded by a lot of famous tourist destinations in Bali. Some of them include; Lempuyang Temple (The Gateway to Heaven), Besakih (The Mother Temple of Bali), Tirta Gangga Royal Water Palace, Telaga Waja River for Rafting, Amed Diving Spot, and Bias Putih the Virgin Beach.",
+    "popularFacilities": [
+      "Rooftop Bar",
+      "Fitness Center",
+      "Restaurant",
+      "Free WiFi"
+    ],
+    "amenities": [
+      "Modern Rooms",
+      "Breakfast Included",
+      "Free WiFi",
+      "City View"
+    ],
+    "guestReviews": {
+      "total": 9.0,
+      "categories": {
+        "staff": 9.2,
+        "comfort": 8.8,
+        "freeWifi": 9.0,
+        "facilities": 9.1,
+        "valueForMoney": 8.9,
+        "cleanliness": 9.0,
+        "location": 9.0
+      },
+      "reviews": [
+        {
+          "name": "Sophia Johnson",
+          "country": "USA",
+          "good": "Great location and friendly staff.",
+          "bad": "Small rooms."
+        },
+        {
+          "name": "Michael Chen",
+          "country": "China",
+          "good": "Amazing rooftop bar with stunning views.",
+          "bad": "Noise from the street could be bothersome."
+        }
+      ]
+    },
+    "houseRules": {
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "cancellation": "Cancellation policy varies. Please review before booking.",
+      "ageRestrictions": "Guests under 21 must be accompanied by an adult.",
+      "smoking": "Smoking is not allowed indoors.",
+      "parties": "No parties allowed in rooms.",
+      "pets": "Pets are not allowed."
+    },
+    "apartment": [
+      {
+        "title": "City View Room",
+        "numberOfGuest": "2",
+        "price": "USD 250",
+        "availableRoom": 4,
+        "bed": {
+          "small": 0,
+          "medium": 1,
+          "large": 0,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Flexible cancellation",
+          "desc": "Cancel up to 24 hours before check-in."
+        }
+      },
+      {
+        "title": "Suite with Balcony",
+        "numberOfGuest": "4",
+        "price": "USD 450",
+        "availableRoom": 2,
+        "bed": {
+          "small": 1,
+          "medium": 1,
+          "large": 0,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Non-refundable",
+          "desc": "Pay in advance."
+        }
+      }
+    ]
+  },
+  {
+    "image": [
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1693298937/ezgif_1_rmykvj.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1693298951/ezgif_1_uczsku.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1693298965/ezgif_prxh2d.png"
+    ],
+    "title": "Whispering Pines Cottages",
+    "location": "India",
+    "ratings": 4.6,
+    "description": "Featuring 4-star accommodation, Whispering Pines Cottages is set in Amsterdam, 2.1 km from Artis Zoo and 2.8 km from Royal Theater Carré. The property is situated 3.2 km from Rembrandt House, 3.2 km from Dutch National Opera & Ballet and 3.3 km from Heineken Experience. The aparthotel features family rooms. All units in the aparthotel are fitted with a coffee machine. Featuring a private bathroom with a shower and a hair dryer, units at the aparthotel also offer free WiFi, while some rooms also offer a balcony. At the aparthotel, units come with bed linen and towels. Amsterdam RAI is 3.6 km from the aparthotel, while Rijksmuseum is 4 km away. The nearest airport is Schiphol Airport, 15 km from Whispering Pines Cottages.",
+    "popularFacilities": ["Family rooms", "Heating", "Breakfast", "Free WiFi"],
+    "amenities": [
+      "Apartment",
+      "Breakfast",
+      "Free WiFi",
+      "Balcony",
+      "Private bathroom",
+      "Family rooms",
+      "Non smoking rooms",
+      "Kitchen",
+      "Flat-screen TV"
+    ],
+    "guestReviews": {
+      "total": 9.5,
+      "categories": {
+        "staff": 9.5,
+        "comfort": 9.2,
+        "freeWifi": 9.0,
+        "facilities": 9.3,
+        "valueForMoney": 9.6,
+        "cleanliness": 9.1,
+        "location": 9.4
+      },
+      "reviews": [
+        {
+          "name": "John Doe",
+          "country": "USA",
+          "good": "Amazing service and stunning views.",
+          "bad": "Limited dining options."
+        },
+        {
+          "name": "Jane Smith",
+          "country": "Canada",
+          "good": "Beautifully decorated rooms.",
+          "bad": "Slow Wi-Fi connection."
+        }
+      ]
+    },
+    "houseRules": {
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "cancellation": "Cancellation and prepayment policies vary according to accommodation type. Please check what conditions may apply to each option when making your selection.",
+      "ageRestrictions": "The minimum age for check-in is 18.",
+      "smoking": "Smoking is not allowed.",
+      "parties": "Parties/events are not allowed.",
+      "pets": "Pets are not allowed."
+    },
+    "apartment": [
+      {
+        "title": "Ocean Villa",
+        "numberOfGuest": "2",
+        "price": "USD 250",
+        "availableRoom": 5,
+        "bed": {
+          "small": 0,
+          "medium": 1,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Non-refundable",
+          "desc": "Pay in advance."
+        }
+      },
+      {
+        "title": "Beach Suite",
+        "numberOfGuest": "4",
+        "price": "USD 450",
+        "availableRoom": 3,
+        "bed": {
+          "small": 0,
+          "medium": 2,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Free cancellation before 7 days of arrival",
+          "desc": "Pay nothing until 3 days before arrival."
+        }
+      }
+    ]
+  },
+  {
+    "image": [
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697346882/1_xh2fbq.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697346887/2_o7m0in.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697346893/3_hjpn2l.png"
+    ],
+    "title": "Vintage Airstream Suite on Top of a Hill",
+    "location": "Caagayan, Calanogas, Philippines",
+    "ratings": 4,
+    "description": "Featuring 4-star accommodation, Whispering Pines Cottages is set in Amsterdam, 2.1 km from Artis Zoo and 2.8 km from Royal Theater Carré. The property is situated 3.2 km from Rembrandt House, 3.2 km from Dutch National Opera & Ballet and 3.3 km from Heineken Experience. The aparthotel features family rooms. All units in the aparthotel are fitted with a coffee machine. Featuring a private bathroom with a shower and a hair dryer, units at the aparthotel also offer free WiFi, while some rooms also offer a balcony. At the aparthotel, units come with bed linen and towels. Amsterdam RAI is 3.6 km from the aparthotel, while Rijksmuseum is 4 km away. The nearest airport is Schiphol Airport, 15 km from Whispering Pines Cottages.",
+    "popularFacilities": ["Family rooms", "Heating", "Breakfast", "Free WiFi"],
+    "amenities": [
+      "Apartment",
+      "Breakfast",
+      "Free WiFi",
+      "Balcony",
+      "Private bathroom",
+      "Family rooms",
+      "Non smoking rooms",
+      "Kitchen",
+      "Flat-screen TV"
+    ],
+    "guestReviews": {
+      "total": 8.5,
+      "categories": {
+        "staff": 8.2,
+        "comfort": 8.6,
+        "freeWifi": 8.0,
+        "facilities": 8.4,
+        "valueForMoney": 8.3,
+        "cleanliness": 8.7,
+        "location": 8.9
+      },
+      "reviews": [
+        {
+          "name": "David Brown",
+          "country": "UK",
+          "good": "Beautiful surroundings and friendly staff.",
+          "bad": "Limited parking space."
+        },
+        {
+          "name": "Emma White",
+          "country": "Australia",
+          "good": "Cozy rooms with breathtaking views.",
+          "bad": "Wi-Fi signal was weak in the rooms."
+        }
+      ]
+    },
+    "houseRules": {
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "cancellation": "Flexible cancellation policy available. Please check details before booking.",
+      "ageRestrictions": "Guests must be 18 years or older to check-in.",
+      "smoking": "Smoking is prohibited indoors.",
+      "parties": "No parties or events allowed.",
+      "pets": "Pets are not allowed."
+    },
+    "apartment": [
+      {
+        "title": "Alpine Chalet",
+        "numberOfGuest": "2",
+        "price": "USD 1300",
+        "availableRoom": 2,
+        "bed": {
+          "small": 0,
+          "medium": 1,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Flexible cancellation",
+          "desc": "Cancel up to 48 hours before check-in."
+        }
+      },
+      {
+        "title": "Mountain View Suite",
+        "numberOfGuest": "4",
+        "price": "USD 2500",
+        "availableRoom": 1,
+        "bed": {
+          "small": 1,
+          "medium": 1,
+          "large": 0,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Non-refundable",
+          "desc": "Pay in advance."
+        }
+      }
+    ]
+  },
+  {
+    "image": [
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308958/6d90bd2d-1bae-47cc-b831-b7561d766048_zaotzs.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308972/b0472ec4-f1cd-4b79-86d0-444a8929b371_icpxhd.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308980/f2026c2f-028b-4a4f-895d-2fea973d9609_cvnyfq.png"
+    ],
+    "title": "Treasure of Bali, 3BR villa, infinity pool, staff",
+    "location": "Seririt, Bali, Indonesia",
+    "ratings": 4.8,
+    "description": "Featuring 4-star accommodation, Treasure of Bali is set in Amsterdam, 2.1 km from Artis Zoo and 2.8 km from Royal Theater Carré. The property is situated 3.2 km from Rembrandt House, 3.2 km from Dutch National Opera & Ballet and 3.3 km from Heineken Experience. The aparthotel features family rooms. All units in the aparthotel are fitted with a coffee machine. Featuring a private bathroom with a shower and a hair dryer, units at the aparthotel also offer free WiFi, while some rooms also offer a balcony. At the aparthotel, units come with bed linen and towels. Amsterdam RAI is 3.6 km from the aparthotel, while Rijksmuseum is 4 km away. The nearest airport is Schiphol Airport, 15 km from Treasure of Bali.",
+    "popularFacilities": ["Family rooms", "Heating", "Breakfast", "Free WiFi"],
+    "amenities": [
+      "Apartment",
+      "Breakfast",
+      "Free WiFi",
+      "Balcony",
+      "Private bathroom",
+      "Family rooms",
+      "Non smoking rooms",
+      "Kitchen",
+      "Flat-screen TV"
+    ],
+    "guestReviews": {
+      "total": 9.5,
+      "categories": {
+        "staff": 9.5,
+        "comfort": 9.2,
+        "freeWifi": 9.0,
+        "facilities": 9.3,
+        "valueForMoney": 9.6,
+        "cleanliness": 9.1,
+        "location": 9.4
+      },
+      "reviews": [
+        {
+          "name": "John Doe",
+          "country": "USA",
+          "good": "Amazing service and stunning views.",
+          "bad": "Limited dining options."
+        },
+        {
+          "name": "Jane Smith",
+          "country": "Canada",
+          "good": "Beautifully decorated rooms.",
+          "bad": "Slow Wi-Fi connection."
+        }
+      ]
+    },
+    "houseRules": {
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "cancellation": "Cancellation and prepayment policies vary according to accommodation type. Please check what conditions may apply to each option when making your selection.",
+      "ageRestrictions": "The minimum age for check-in is 18.",
+      "smoking": "Smoking is not allowed.",
+      "parties": "Parties/events are not allowed.",
+      "pets": "Pets are not allowed."
+    },
+    "apartment": [
+      {
+        "title": "Ocean Villa",
+        "numberOfGuest": "2",
+        "price": "USD 210",
+        "availableRoom": 5,
+        "bed": {
+          "small": 0,
+          "medium": 1,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Non-refundable",
+          "desc": "Pay in advance."
+        }
+      },
+      {
+        "title": "Beach Suite",
+        "numberOfGuest": "4",
+        "price": "USD 430",
+        "availableRoom": 3,
+        "bed": {
+          "small": 0,
+          "medium": 2,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Free cancellation before 7 days of arrival",
+          "desc": "Pay nothing until 3 days before arrival."
+        }
+      }
+    ]
+  },
+  {
+    "image": [
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697394713/1_tc3clg.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697394719/2_jhtr1x.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697394723/3_rlue1w.png"
+    ],
+    "title": "Vintage Airstream Suite on Top of a Hill",
+    "location": "Caagayan, Calanogas, Philippines",
+    "ratings": 4,
+    "description": "Featuring 4-star accommodation, Whispering Pines Cottages is set in Amsterdam, 2.1 km from Artis Zoo and 2.8 km from Royal Theater Carré. The property is situated 3.2 km from Rembrandt House, 3.2 km from Dutch National Opera & Ballet and 3.3 km from Heineken Experience. The aparthotel features family rooms. All units in the aparthotel are fitted with a coffee machine. Featuring a private bathroom with a shower and a hair dryer, units at the aparthotel also offer free WiFi, while some rooms also offer a balcony. At the aparthotel, units come with bed linen and towels. Amsterdam RAI is 3.6 km from the aparthotel, while Rijksmuseum is 4 km away. The nearest airport is Schiphol Airport, 15 km from Whispering Pines Cottages.",
+    "popularFacilities": ["Family rooms", "Heating", "Breakfast", "Free WiFi"],
+    "amenities": [
+      "Apartment",
+      "Breakfast",
+      "Free WiFi",
+      "Balcony",
+      "Private bathroom",
+      "Family rooms",
+      "Non smoking rooms",
+      "Kitchen",
+      "Flat-screen TV"
+    ],
+    "guestReviews": {
+      "total": 8.5,
+      "categories": {
+        "staff": 8.2,
+        "comfort": 8.6,
+        "freeWifi": 8.0,
+        "facilities": 8.4,
+        "valueForMoney": 8.3,
+        "cleanliness": 8.7,
+        "location": 8.9
+      },
+      "reviews": [
+        {
+          "name": "David Brown",
+          "country": "UK",
+          "good": "Beautiful surroundings and friendly staff.",
+          "bad": "Limited parking space."
+        },
+        {
+          "name": "Emma White",
+          "country": "Australia",
+          "good": "Cozy rooms with breathtaking views.",
+          "bad": "Wi-Fi signal was weak in the rooms."
+        }
+      ]
+    },
+    "houseRules": {
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "cancellation": "Flexible cancellation policy available. Please check details before booking.",
+      "ageRestrictions": "Guests must be 18 years or older to check-in.",
+      "smoking": "Smoking is prohibited indoors.",
+      "parties": "No parties or events allowed.",
+      "pets": "Pets are not allowed."
+    },
+    "apartment": [
+      {
+        "title": "Alpine Chalet",
+        "numberOfGuest": "2",
+        "price": "USD 1300",
+        "availableRoom": 2,
+        "bed": {
+          "small": 0,
+          "medium": 1,
+          "large": 1,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Flexible cancellation",
+          "desc": "Cancel up to 48 hours before check-in."
+        }
+      },
+      {
+        "title": "Mountain View Suite",
+        "numberOfGuest": "4",
+        "price": "USD 2500",
+        "availableRoom": 1,
+        "bed": {
+          "small": 1,
+          "medium": 1,
+          "large": 0,
+          "extraLarge": 0
+        },
+        "details": {
+          "title": "Non-refundable",
+          "desc": "Pay in advance."
+        }
+      }
+    ]
+  },
+  {
+    "image": [
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308253/1_pgfie4.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308267/2_lo49wm.png",
+      "https://res.cloudinary.com/dlhexsnxq/image/upload/v1697308273/3_bc14qx.png"
+    ],
+    "title": "Veluvana Bali - Owl Bamboo House",
+    "location": "Sidemen, Bali, Indonesia",
+    "ratings": 4.9,
+    "description": "Veluvana is a unique bamboo house with a wonderful view of Sidemen Valley, a genuine tropical landscape with Mount Agung peak on its back. This getaway spot is a great place to bring into reality the dream adventure of the true wanderer. We invite you to feel the magnificent vibes of the entire house to escape the life that is full of drama into a journey with ultimate joy. The bamboo house is located at the main tourist district of Sidemen, a small town with a magnificent landscape in the southern flank of Mount Agung. Sidemen is not a touristy area, it is about a 90-minute drive from Bali Airport and a 45-minute drive from Ubud. Besides the beautiful scenery and the indigenous culture Sidemen also surrounded by a lot of famous tourist destinations in Bali. Some of them include; Lempuyang Temple (The Gateway to Heaven), Besakih (The Mother Temple of Bali), Tirta Gangga Royal Water Palace, Telaga Waja River for Rafting, Amed Diving Spot, and Bias Putih the Virgin Beach.",
+    "popularFacilities": [
+      "Rooftop Bar",
+      "Fitness Center",
+      "Restaurant",
+      "Free WiFi"
+    ],
+    "amenities": [
+      "Modern Rooms",
+      "Breakfast Included",
+      "Free WiFi",
+      "City View"
+    ],
+    "guestReviews": {
+      "total": 9.0,
+      "categories": {
+        "staff": 9.2,
+        "comfort": 8.8,
+        "freeWifi": 9.0,
+        "facilities": 9.1,
+        "valueForMoney": 8.9,
         "cleanliness": 9.0,
         "location": 9.0
       },
