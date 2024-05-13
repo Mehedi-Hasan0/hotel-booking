@@ -28,6 +28,8 @@ const TopRatedHomesCarousel = () => {
       : 1
   );
 
+  console.log(hotels, "hotels");
+
   useEffect(() => {
     const carouselSettingsOnWindowWidth = () => {
       setSlidePerView(
