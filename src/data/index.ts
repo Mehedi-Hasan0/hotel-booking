@@ -25,3 +25,18 @@ export const popularPlaces = [
     country: "Bangladesh",
   },
 ];
+
+export const socialIcons = [
+  {
+    label: "facebook",
+    path: "/assets/icons/facebook.svg",
+  },
+  {
+    label: "google",
+    path: "/assets/icons/google.svg",
+  },
+  {
+    label: "apple",
+    path: "/assets/icons/apple.svg",
+  },
+];

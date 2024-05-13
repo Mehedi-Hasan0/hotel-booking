@@ -9,8 +9,10 @@ import { ISearchPlaceOptions, ISearchPlaceWithPeople } from "@/types";
 import { DateRange } from "react-day-picker";
 import { addDays } from "date-fns";
 import SearchHeader from "./SearchHeader";
+import { usePathname } from "next/navigation";
 
 export default function Search() {
+  const pathName = usePathname();
   // STATE
   const [popularPlaceOptions, setPopularPlaceOptions] = useState<
     ISearchPlaceOptions | string
@@ -28,7 +30,11 @@ export default function Search() {
     });
 
   return (
-    <div className="mt-10 sm:mt-12 md:mt-16 lg:mt-20 mb-52 sm:mb-52 lg:mb-16 relative">
+    <div
+      className={`mt-10 sm:mt-12 md:mt-16 lg:mt-20 mb-52 sm:mb-52 lg:mb-16 relative ${
+        pathName === "/sign-in" || pathName === "/register" ? "hidden" : "block"
+      }`}
+    >
       <SearchHeader />
       {/* search fields */}
       <div className="absolute w-full h-56 lg:h-16 bg-yellow-500 rounded-lg -bottom-[264px] sm:-bottom-64 md:-bottom-[268px] lg:-bottom-28 z-20 flex flex-col lg:flex-row items-center justify-center gap-1 p-1">
