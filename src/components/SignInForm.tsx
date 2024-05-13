@@ -14,36 +14,33 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
-import { registerValidation } from "@/lib/validation";
+import { signInValidation } from "@/lib/validation";
 import { useState } from "react";
 import { toast } from "sonner";
 
-const RegisterForm = () => {
+const SignInForm = () => {
   const [showPassword, setShowPassword] = useState<boolean>(false);
-  const [showConfirmPassword, setShowConfirmPassword] =
-    useState<boolean>(false);
 
-  const form = useForm<z.infer<typeof registerValidation>>({
-    resolver: zodResolver(registerValidation),
+  const form = useForm<z.infer<typeof signInValidation>>({
+    resolver: zodResolver(signInValidation),
     defaultValues: {
       email: "",
       password: "",
-      confirmPassword: "",
     },
   });
 
   // 2. Define a submit handler.
-  function onSubmit(values: z.infer<typeof registerValidation>) {
+  function onSubmit(values: z.infer<typeof signInValidation>) {
     // Form data will be send to the backend
     console.log(values);
     // dummy response
-    toast("Your account is created", {
+    toast("Welcome back to Hotel.com", {
       action: {
         label: "Close",
         onClick: () => console.log("Close"),
       },
     });
-    // redirecting to home paage
+    // redirecting to home page
     setTimeout(() => {
       window.location.href = "/";
     }, 700);
@@ -108,43 +105,6 @@ const RegisterForm = () => {
             </FormItem>
           )}
         />
-        {/* confirm password */}
-        <FormField
-          control={form.control}
-          name="confirmPassword"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Confirm password</FormLabel>
-              <FormControl>
-                <div className="flex-center gap-4 border border-slate-200 rounded-md">
-                  <Input
-                    type={showConfirmPassword ? "text" : "password"}
-                    className="border-none focus-visible:ring-0 focus-visible:ring-offset-0"
-                    placeholder="Confirm password"
-                    {...field}
-                  />
-                  <span
-                    onClick={() => setShowConfirmPassword((prev) => !prev)}
-                    className="cursor-pointer mr-2 hover:bg-zinc-100 transition-colors duration-300 ease-in-out rounded"
-                  >
-                    {showConfirmPassword ? (
-                      <IoEyeOffOutline
-                        size={24}
-                        className="text-secondary-foreground w-8 h-8 p-2 "
-                      />
-                    ) : (
-                      <IoEyeOutline
-                        size={24}
-                        className="text-secondary-foreground w-8 h-8 p-2 "
-                      />
-                    )}
-                  </span>
-                </div>
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
         <Button
           type="submit"
           className="w-full bg-primary-foreground text-white mt-2 md:mt-4"
@@ -156,4 +116,4 @@ const RegisterForm = () => {
   );
 };
 
-export default RegisterForm;
+export default SignInForm;
