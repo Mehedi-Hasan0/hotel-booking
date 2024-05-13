@@ -78,6 +78,7 @@ export interface IApartment {
 }
 
 export interface IHotel {
+  id: number;
   image: string[];
   title: string;
   location: string;
