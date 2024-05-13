@@ -8,7 +8,7 @@ interface CarouselCardProps {
 }
 
 const CarouselCard: React.FC<CarouselCardProps> = ({ hotel }) => {
-  console.log(hotel, "hotel");
+  //   console.log(hotel, "hotel");
 
   return (
     <div className="flex flex-col gap-1 sm:gap-2 border border-zinc-300 rounded-lg h-[380px] relative">

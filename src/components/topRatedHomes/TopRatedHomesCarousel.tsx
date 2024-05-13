@@ -8,6 +8,7 @@ import { useDataContext } from "@/context/DataContext";
 import CarouselCard from "./CarouselCard";
 import SwiperCore from "swiper";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+import Link from "next/link";
 
 SwiperCore.use([Navigation]);
 
@@ -98,7 +99,9 @@ const TopRatedHomesCarousel = () => {
         {/* slider data */}
         {hotels.map((hotel, idx) => (
           <SwiperSlide key={idx}>
-            <CarouselCard hotel={hotel} />
+            <Link href={`/hotels/${hotel.id}`}>
+              <CarouselCard hotel={hotel} />
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>
