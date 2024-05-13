@@ -11,7 +11,7 @@ const CarouselCard: React.FC<CarouselCardProps> = ({ hotel }) => {
   //   console.log(hotel, "hotel");
 
   return (
-    <div className="flex flex-col gap-1 sm:gap-2 border border-zinc-300 rounded-lg h-[380px] relative">
+    <div className="flex flex-col gap-1 sm:gap-2 border border-zinc-300 rounded-lg h-[350px] sm:h-[380px] relative">
       <div className="group overflow-hidden rounded-tr-lg rounded-tl-lg">
         <Image
           src={hotel.image[0]}

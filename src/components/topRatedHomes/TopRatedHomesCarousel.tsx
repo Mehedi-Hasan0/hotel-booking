@@ -9,6 +9,7 @@ import CarouselCard from "./CarouselCard";
 import SwiperCore from "swiper";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import Link from "next/link";
+import CarouselSkeleton from "../shared/CarouselSkeleton";
 
 SwiperCore.use([Navigation]);
 
@@ -72,7 +73,7 @@ const TopRatedHomesCarousel = () => {
   };
 
   if (!swiperLoaded && isLoading) {
-    return null; // loading state
+    return <CarouselSkeleton />; // loading state
   }
 
   return (
